@@ -1,0 +1,47 @@
+{
+ "level": "D3",
+ "stage": "P3",
+ "hash": "ef6dc8f8b6177b6a",
+ "options": {
+  "FT1": {
+   "title": "Origami panel bay (FR twinwall, clip-lock)",
+   "parts": 181,
+   "made_or_bought": 161,
+   "fasteners": 20,
+   "welds": 0,
+   "bare": [],
+   "bare_share": 0.0,
+   "interference": [],
+   "mass_kg": 158.5,
+   "step_files": 161
+  },
+  "FT2": {
+   "title": "Tensioned fabric screens on a pole frame",
+   "parts": 184,
+   "made_or_bought": 128,
+   "fasteners": 56,
+   "welds": 0,
+   "bare": [],
+   "bare_share": 0.0,
+   "interference": [],
+   "mass_kg": 93.8,
+   "step_files": 0
+  },
+  "FT3": {
+   "title": "Floor marking and belt stanchions",
+   "parts": 124,
+   "made_or_bought": 68,
+   "fasteners": 56,
+   "welds": 0,
+   "bare": [],
+   "bare_share": 0.0,
+   "interference": [],
+   "mass_kg": 72.3,
+   "step_files": 0
+  }
+ },
+ "failures": [],
+ "warnings": [],
+ "passed": true,
+ "seconds": 23.3
+}

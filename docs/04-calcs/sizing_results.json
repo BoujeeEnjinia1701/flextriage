@@ -1,0 +1,289 @@
+{
+ "plan": {
+  "length_m": 8.194914710236455,
+  "width_m": 2.3414042029247017,
+  "zones_m2": {
+   "1 Intake": 5.48,
+   "2 Assessment": 5.48,
+   "3 Treatment": 8.22
+  },
+  "interior_m2": 19.19,
+  "footprint_m2": 25.87,
+  "deck_floor_m2": 20.0
+ },
+ "panels": {
+  "duos": 18,
+  "flaps": 4,
+  "wall_length_m": 21.6,
+  "wall_m2": 25.92,
+  "flap_m2": 4.55,
+  "tails": 2,
+  "sheets": 12
+ },
+ "mass_kg": {
+  "duo panels": 18.14,
+  "corner tail leaves": 1.01,
+  "flap leaves": 3.18,
+  "clips (angle, angle tee)": 1.97,
+  "hinge, sleeve, strike and stop clips": 1.15,
+  "pins, washers, magnets, strikes": 0.43,
+  "feet blocks and outriggers": 7.68,
+  "angle junction and jamb feet": 3.78,
+  "EPDM pads and finger guards": 0.61,
+  "prints and overlaminate": 0.23,
+  "empty ballast bags": 2.5,
+  "carry bags": 2.4
+ },
+ "mass_total_kg": 43.1,
+ "mass_without_bags_kg": 40.7,
+ "mass_hardware_kg": 19.4,
+ "pack_12kg": {
+  "sheet_m2_if_no_hardware": 14.9,
+  "wall_m_at_1200_if_no_hardware": 12.4,
+  "wall_m_at_1800_if_no_hardware": 8.3,
+  "ratio": 3.59,
+  "bags_at_12kg": 4,
+  "bags_at_20kg": 3
+ },
+ "pack_volume": {
+  "duo_stack_mm": 180.0,
+  "flap_stack_mm": 16.0,
+  "feet_L": 7.4
+ },
+ "printing": {
+  "petg_kg": 13.4,
+  "print_hours": 672,
+  "service_extra_usd": 1076
+ },
+ "P18": {
+  "mass_kg": 53.7,
+  "sheets": 21,
+  "sheet_cost": 945.0
+ },
+ "pack_D15": {
+  "platform_U_bay_kg": 14.3,
+  "printed_kg": 43.1,
+  "moulded_cored_kg": 35.0,
+  "feet": 22,
+  "clips": 46,
+  "bags_at_15kg": 3,
+  "bags_at_15kg_moulded": 3
+ },
+ "zones_config": {
+  "per_zone_kg": 5.6,
+  "per_zone_m2": 5.48,
+  "two_zone_kg": 34.7,
+  "four_zone_kg": 48.7
+ },
+ "sight": {
+  "standing eye, women 5th": {
+   "eye_mm": 1421,
+   "sees_over_1200": true,
+   "sees_over_1800": false
+  },
+  "standing eye, men 95th": {
+   "eye_mm": 1753,
+   "sees_over_1200": true,
+   "sees_over_1800": false
+  },
+  "seated eye, women 5th": {
+   "eye_mm": 1148.0,
+   "sees_over_1200": false,
+   "sees_over_1800": false
+  },
+  "seated eye, men 95th": {
+   "eye_mm": 1310.0,
+   "sees_over_1200": true,
+   "sees_over_1800": false
+  },
+  "stature, men 95th": {
+   "eye_mm": 1870,
+   "sees_over_1200": true,
+   "sees_over_1800": true
+  }
+ },
+ "sight_hidden_m": {
+  "stretcher top 250 mm": 2.31,
+  "trolley top 800 mm": 0.99,
+  "head of a seated patient 1,150 mm": 0.15
+ },
+ "self_weight": {
+  "h_cr_flat_mm": 1441,
+  "load_factor_flat_P12": 1.73,
+  "load_factor_flat_P12_hot": 0.87,
+  "load_factor_flat_P18": 0.51,
+  "platform_factor": 2.0,
+  "leaf_both_edges": 9.43,
+  "leaf_both_edges_hot": 4.72,
+  "leaf_free_edge": 4.68,
+  "leaf_free_edge_hot": 2.34,
+  "flap_hung": 5.05,
+  "flap_hung_hot": 2.52,
+  "leaf_P18_both_edges": 6.29,
+  "leaf_P18_both_edges_hot": 3.14
+ },
+ "tip": {
+  "z_push_mm": 1110.5,
+  "demand_Nm": 197.7,
+  "piece_A_0_bags_per_stub_N": 52.1,
+  "piece_A_1_bags_per_stub_N": 182.0,
+  "piece_A_2_bags_per_stub_N": 311.9,
+  "ballast_needed_per_stub_kg": 4.8,
+  "single_duo_N": [
+   4.5,
+   5.9
+  ],
+  "free_wall_end_N": [
+   8.7,
+   8.9
+  ],
+  "two_zone_one_stub_2_bags_N": 161.4,
+  "two_zone_bags_needed_kg": 11.3
+ },
+ "anchor": {
+  "uplift_N": 103,
+  "peg_capacity_N": 176,
+  "factor": 1.71,
+  "v01_capacity_N": 201,
+  "v01_factor": 1.96,
+  "tee_shear_N": 113,
+  "tee_capacity_N": 351,
+  "tee_factor": 3.12
+ },
+ "stub_joint": {
+  "clip_force_N": 220,
+  "edge_bearing_MPa": 4.2,
+  "pp_yield_MPa": 24.0,
+  "clip_pullout_N": 176
+ },
+ "slide": {
+  "piece_kg": 40.2,
+  "slide_bare_N": [
+   79,
+   138
+  ],
+  "slide_pads_N": [
+   177,
+   236
+  ]
+ },
+ "deploy_min": {
+  "counts": {
+   "unbag and unfold a duo": 20,
+   "stand a duo in its feet": 20,
+   "lay a pad": 22,
+   "push in one clip": 46,
+   "set a foot, shoe or jamb foot": 22,
+   "hang a flap leaf and drop two pins": 4,
+   "fit a split pin": 8,
+   "fill and lay a ballast bag": 10,
+   "lay out the plan with a tape": 1,
+   "final check walk round": 1
+  },
+  "as_drawn": [
+   16.3,
+   47.5
+  ],
+  "with_F6": [
+   12.0,
+   34.9
+  ],
+  "target": 15.0,
+  "one_zone_min": [
+   1.6,
+   4.7
+  ]
+ },
+ "flap": {
+  "magnet_contact_N": 28.6,
+  "magnet_at_gap_N": 12.9,
+  "push_per_catch": 1.18,
+  "push_force_N": 15.3,
+  "field_0p5mT_mm": 53.5,
+  "ada_max_N": 22.2,
+  "catch_target_N": [
+   3.0,
+   18.0
+  ],
+  "draught_edge_N": [
+   0.57,
+   2.84
+  ],
+  "door_clear_approach_mm": 971,
+  "leaf_kg": 0.8,
+  "door_clear_floor_mm": 1069,
+  "door_clear_open_flaps_mm": 1149,
+  "ada_clear_mm": 815,
+  "stretcher_w_mm": 750,
+  "tent_exit_72in_mm": 1829,
+  "door_clear_end_mm": 1054
+ },
+ "fire": {
+  "panel_m2": 31.91,
+  "MJ": 887,
+  "MJ_per_m2_floor": 34.3,
+  "MJ_P18": 1207,
+  "MJ_PETG": 288,
+  "MJ_bags_and_pads": 105,
+  "MJ_all": 1279
+ },
+ "legibility_m": {
+  "zone numeral 150 mm": [
+   22.5,
+   45.0
+  ],
+  "zone word 60 mm": [
+   9.0,
+   18.0
+  ]
+ },
+ "legibility_need_m": 4.2,
+ "cost": {
+  "bom_total": 1174.23,
+  "target": 800.0,
+  "sheet_saving_volume": 120.0,
+  "printed_parts": 276.78,
+  "stretch": 500.0,
+  "over": 374.23,
+  "drivers": [
+   [
+    "1 P12 duo wall panel, FXP-S4FR",
+    405.0
+   ],
+   [
+    "24 Freight for 48 x 96 in sheets",
+    150.0
+   ],
+   [
+    "5 Flap leaf, FXP-S4FR",
+    90.0
+   ],
+   [
+    "11 Foot with two outriggers",
+    81.0
+   ]
+  ],
+  "per_m2_interior": 61.2,
+  "per_deployment_50": 23.48,
+  "per_deployment_100": 11.74
+ },
+ "FT2": {
+  "posts": 14,
+  "screen_m2": 43.9,
+  "mass_kg": [
+   53.2,
+   64.1
+  ],
+  "frame_kg": 42.9,
+  "cost_benchmark_usd": 2060,
+  "fire_MJ": null
+ },
+ "FT3": {
+  "posts": 14,
+  "mass_kg": 267.0,
+  "tip_one_post_N": 34.2,
+  "cost_steel_usd": 844.0,
+  "cost_waterfill_usd": 1198.0,
+  "belt_height_mm": 970.0
+ }
+}
